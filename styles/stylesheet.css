@@ -461,6 +461,10 @@ iframe {
     margin-bottom: 0 !important;
 }
 
+.contact-form p {
+    margin-bottom: 0 !important;
+}
+
 .contact-form input[type=text],
 .contact-form input[type=email],
 .contact-form textarea {
@@ -668,14 +672,18 @@ select::-ms-expand {
 }
 
 .lg-text {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .lg-medium {
     font-size: 18px;
     font-weight: 600;
+}
+
+select {
+    margin-top: 1.5rem;
 }
 
 /* Checkbox design */
@@ -710,29 +718,24 @@ select::-ms-expand {
     background-color: #eee;
 }
 
-/* On mouse-over, add a grey background color */
 .containers:hover input ~ .checkmark {
     background-color: #ccc;
 }
 
-/* When the checkbox is checked, add a blue background */
 .containers input:checked ~ .checkmark {
     background-color: #E8CAC1;
 }
 
-/* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
     content: "";
     position: absolute;
     display: none;
 }
 
-/* Show the checkmark when checked */
 .containers input:checked ~ .checkmark:after {
     display: block;
 }
 
-/* Style the checkmark/indicator */
 .containers .checkmark:after {
     left: 9px;
     top: 6px;
@@ -776,17 +779,14 @@ select::-ms-expand {
     border-radius: 50%;
 }
 
-/* On mouse-over, add a grey background color */
 .containers:hover input ~ .radiocheck {
     background-color: #ccc;
 }
 
-/* When the radio button is checked, add a blue background */
 .containers input:checked ~ .radiocheck {
     background-color: #E8CAC1;
 }
 
-/* End - Radio design */
 #content p {
     margin-bottom: 16px;
     font-size: 16px;
@@ -1306,7 +1306,7 @@ A little mobile help :E
     .one_fourth {
         width: 100% !important;
     }
-
+}
     /* ------------------------------------------------------------------
                               Unsure
   ------------------------------------------------------------------
@@ -1316,4 +1316,3 @@ A little mobile help :E
     }
 }
 ------------------------------------------------------------------- */
-}
